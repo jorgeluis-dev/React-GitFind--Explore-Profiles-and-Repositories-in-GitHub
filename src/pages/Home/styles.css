@@ -1,9 +1,16 @@
 .conteudo {
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-end;
+    flex-direction: column;
 
+}
+
+hr{
+    width: 550px;
+    height: 1px;
+    background-color: white;
 }
 
 .background{
@@ -38,4 +45,40 @@ button{
     background: #20333b;
     font-size: 18px;
     padding: 10px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0;
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #e5e5e5;
+    margin-right: 32px;
+    
+
+}
+
+.perfil h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.perfil p {
+    color: #999999;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+
+}
+
+.perfil span {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
 }
